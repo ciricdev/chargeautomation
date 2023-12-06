@@ -1,5 +1,9 @@
 <?php
-require_once('testimonie-type.php');
+
+// Include Custom Post Types
+require_once get_stylesheet_directory(). '/cpt/index.php';
+
+//require_once('testimonie-type.php');
 // Child Theme Setup
 function wpbf_child_theme_setup() {
 

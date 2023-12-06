@@ -4,3 +4,20 @@
 [2023-12-06 15:51:44] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
 [2023-12-06 15:51:45] [cache_controller::purge_all] Purged whole Cloudflare cache
 [2023-12-06 15:51:45] [cache_controller::purge_cache_queue_job] Cache purging complete
+[2023-12-06 16:47:18] [cache_controller::purge_cache_queue_write] queue file not exist
+[2023-12-06 16:47:18] [cache_controller::wp_rocket_hooks] Purge whole Cloudflare cache (fired action: rocket_after_automatic_cache_purge_dir)
+[2023-12-06 16:47:23] [cache_controller::wp_rocket_hooks] Purge whole Cloudflare cache (fired action: rocket_after_automatic_cache_purge_dir)
+[2023-12-06 16:47:23] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
+[2023-12-06 16:47:24] [cache_controller::purge_all] Purged whole Cloudflare cache
+[2023-12-06 16:47:24] [cache_controller::purge_cache_queue_job] Cache purging complete
+[2023-12-06 16:47:27] [cache_controller::purge_cache_queue_write] queue file not exist
+[2023-12-06 16:47:27] [cache_controller::wp_rocket_hooks] Purge whole Cloudflare cache (fired action: rocket_after_automatic_cache_purge_dir)
+[2023-12-06 16:47:34] [cache_controller::wp_rocket_hooks] Purge whole Cloudflare cache (fired action: rocket_after_automatic_cache_purge_dir)
+[2023-12-06 16:47:34] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
+[2023-12-06 16:47:35] [cache_controller::purge_all] Purged whole Cloudflare cache
+[2023-12-06 16:47:35] [cache_controller::purge_cache_queue_job] Cache purging complete
+[2023-12-06 16:47:35] [cache_controller::purge_cache_queue_write] queue file not exist
+[2023-12-06 16:47:35] [cache_controller::wpo_hooks] Purge whole Cloudflare cache (fired action: wpo_cache_flush)
+[2023-12-06 16:47:36] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
+[2023-12-06 16:47:37] [cache_controller::purge_all] Purged whole Cloudflare cache
+[2023-12-06 16:47:37] [cache_controller::purge_cache_queue_job] Cache purging complete

@@ -2,8 +2,13 @@
 
 // Include Custom Post Types
 require_once __DIR__ . '/inc/cpt/all.php';
+
 // Include Blocks
 require_once __DIR__ . '/inc/blocks/all.php';
+
+// Include Blocks Custom Groups
+
+require_once __DIR__ . '/inc/blocks/blocks_custom_groups.php';
 
 //require_once('testimonie-type.php');
 // Child Theme Setup
@@ -22,11 +27,11 @@ function wpbf_child_scripts() {
 
     // Styles
     wp_enqueue_style( 'wpbf-style-child', WPBF_CHILD_THEME_URI . '/style.css', false, WPBF_CHILD_VERSION );
+    wp_enqueue_style( 'wpbf-style-child-2', WPBF_CHILD_THEME_URI . '/dist/main.css', false, WPBF_CHILD_VERSION );
 
     // Scripts
-        wp_enqueue_script( 'owl-scripts',  WPBF_CHILD_THEME_URI . '/js/owl.carousel.js', false, WPBF_CHILD_VERSION, true);
-     wp_enqueue_script( 'wpbf-site-child', WPBF_CHILD_THEME_URI . '/js/site-child.js', false, WPBF_CHILD_VERSION, true );
-
+     wp_enqueue_script( 'owl-scripts',  WPBF_CHILD_THEME_URI . '/assets/vendor-js/owl.carousel.js',false, WPBF_CHILD_VERSION, true);
+     wp_enqueue_script( 'wpbf-site-child', WPBF_CHILD_THEME_URI . '/dist/main.min.js', ['owl-scripts'], WPBF_CHILD_VERSION, true );
 }
 
 function shortcode_PartnersList() {

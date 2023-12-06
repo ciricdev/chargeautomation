@@ -1,1 +1,0 @@
-!function(e){e("#owl-demo").owlCarousel({autoPlay:3e3,items:3,itemsDesktop:[1e3,3],itemsDesktopSmall:[900,2],itemsTablet:[600,1],itemsMobile:[400,1]}),e(document).ready(function(){e(".flip-item").hover(function(){e(this).toggleClass("active")})})}(jQuery);

@@ -9,7 +9,6 @@
 		itemsMobile: [400, 1], // itemsMobile disabled - inherit from itemsTablet option
 
 	});
-
 	$(document).ready(function () {
 		$(".flip-item").hover(function () {
 			$(this).toggleClass("active");  //Toggle the active class to the area is hovered

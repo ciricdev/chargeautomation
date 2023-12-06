@@ -9,7 +9,7 @@ function ca_acf_init_faqs() {
             'title' => __('FAQs'),
             'description' => __('A collapsible list of FAQs'),
             'render_template' => 'template-parts/blocks/faqs.php',
-            'category' => 'child-theme-blocks',
+            'category' => 'partner-integration',
             'icon' => 'search',
             'mode' => 'edit',
             'keywords' => array('faq'),

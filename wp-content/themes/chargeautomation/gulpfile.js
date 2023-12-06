@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+const babel = require( 'gulp-babel' );
 var plumber = require('gulp-plumber');
 var uglify = require('gulp-uglify');
 var sass = require('gulp-ruby-sass');
@@ -13,9 +14,13 @@ gulp.task('scripts', function(){
 
 	gulp.src('assets/js/*.js')
 	.pipe(plumber())
+	.pipe( babel( {
+		presets: [ 'es2015' ]
+	} ) )
 	.pipe(uglify())
 	.pipe(gulp.dest('js'))
 	.pipe(reload({ stream: true }))
+
 
 });
 

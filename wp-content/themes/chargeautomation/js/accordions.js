@@ -1,0 +1,1 @@
+"use strict";!function(e){alert("hello")}(jQuery);

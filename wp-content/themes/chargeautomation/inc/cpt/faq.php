@@ -31,7 +31,7 @@ function register_faq() {
         'has_archive'         => false,
         'rewrite'             => array('slug' => $slug),
         'menu_icon'           => 'dashicons-format-chat',
-        'supports'            => array( 'title', 'thumbnail', 'editor' ),
+        'supports'            => array( 'title', 'thumbnail' ),
         'show_in_rest'        => true
     );
 

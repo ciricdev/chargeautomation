@@ -1,7 +1,9 @@
 <?php
 
 // Include Custom Post Types
-require_once __DIR__ . '/cpt/index.php';
+require_once __DIR__ . '/inc/cpt/all.php';
+// Include Blocks
+require_once __DIR__ . '/inc/blocks/all.php';
 
 //require_once('testimonie-type.php');
 // Child Theme Setup

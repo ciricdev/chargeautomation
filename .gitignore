@@ -2,6 +2,10 @@
 .htaccess
 wp-config.php
 
+# node_modules
+wp-content/themes/chargeautomation/node_modules
+wp-content/themes/chargeautomation/node_modules/
+
 # ignore specific themes
 wp-content/themes/twenty*/
 

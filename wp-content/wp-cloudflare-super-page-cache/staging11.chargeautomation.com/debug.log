@@ -1,0 +1,6 @@
+[2023-12-05 23:28:52] [cache_controller::purge_cache_queue_write] queue file not exist
+[2023-12-05 23:28:52] [cache_controller::wp_rocket_hooks] Purge whole Cloudflare cache (fired action: after_rocket_clean_domain)
+[2023-12-05 23:28:52] [cache_controller::wp_rocket_hooks] Purge whole Cloudflare cache (fired action: after_rocket_clean_domain)
+[2023-12-05 23:28:53] [cache_controller::wp_rocket_hooks] Purge whole Cloudflare cache (fired action: after_rocket_clean_domain)
+[2023-12-05 23:28:54] [cache_controller::wp_rocket_hooks] Purge whole Cloudflare cache (fired action: after_rocket_clean_domain)
+[2023-12-06 00:15:02] [cache_controller::wpo_hooks] Purge whole Cloudflare cache (fired action: wpo_cache_flush)

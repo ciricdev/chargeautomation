@@ -1,0 +1,11 @@
+# Env Config
+.htaccess
+wp-config.php
+
+# ignore specific themes
+wp-content/themes/twenty*/
+
+# ignore editors
+.idea/
+.idea/*
+.DS_Store

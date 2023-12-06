@@ -1,0 +1,70 @@
+[2023-11-29 02:30:52 : INFO] - Re_Smush_It_Task with attachment ID : 10898, autocreated on : November 29, 2023 02:30:52 
+[2023-11-29 02:35:57 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2023-11-29 02:35:57 : DEBUG] - Lock option (updraft_lock_smush, wpwf_options) was created in the database 
+[2023-11-29 02:35:57 : INFO] - Lock (updraft_lock_smush, wpwf_options) acquired after initialising the database 
+[2023-11-29 02:35:57 : INFO] - Processing task with ID : 1448, and type 'smush' 
+[2023-11-29 02:35:57 : INFO] - Re_Smush_It_Task with attachment ID : 10898, autocreated on : November 29, 2023 02:30:52 
+[2023-11-29 02:35:57 : INFO] - File: CA-TiloPay-Integration-Announcement.png, Compression quality: 92 
+[2023-11-29 02:36:00 : INFO] - Backing up the original image - 2023/11/CA-TiloPay-Integration-Announcement-updraft-pre-smush-original.png 
+[2023-11-29 02:36:09 : INFO] - Successfully optimized the image - /home/customer/www/chargeautomation.com/public_html/wp-content/uploads/2023/11/CA-TiloPay-Integration-Announcement.png.The file was compressed from 105.42 KB to 44.00 KB, saving 58.27 percent, using WP-Optimize 
+[2023-11-29 02:36:09 : INFO] - Completed processing task with ID : 1448, and type 'smush' 
+[2023-11-29 02:36:09 : INFO] - Lock option (updraft_lock_smush, wpwf_options) released 
+[2023-11-29 02:36:09 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2023-11-29 02:36:09 : INFO] - Lock option (updraft_lock_smush, wpwf_options) was deleted from the database 
+[2023-11-29 02:36:09 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2023-12-04 14:19:46 : INFO] - Re_Smush_It_Task with attachment ID : 10930, autocreated on : December 04, 2023 02:19:46 
+[2023-12-04 14:21:01 : INFO] - Re_Smush_It_Task with attachment ID : 10931, autocreated on : December 04, 2023 02:21:01 
+[2023-12-04 14:24:03 : INFO] - Re_Smush_It_Task with attachment ID : 10932, autocreated on : December 04, 2023 02:24:03 
+[2023-12-04 14:29:10 : INFO] - A total of 3 tasks of type smush found and will be processed in this iteration 
+[2023-12-04 14:29:10 : DEBUG] - Lock option (updraft_lock_smush, wpwf_options) was created in the database 
+[2023-12-04 14:29:10 : INFO] - Lock (updraft_lock_smush, wpwf_options) acquired after initialising the database 
+[2023-12-04 14:29:10 : INFO] - Processing task with ID : 1449, and type 'smush' 
+[2023-12-04 14:29:10 : INFO] - Re_Smush_It_Task with attachment ID : 10930, autocreated on : December 04, 2023 02:19:46 
+[2023-12-04 14:29:10 : INFO] - File: guestportal_in_mobile_view.png, Compression quality: 92 
+[2023-12-04 14:29:15 : INFO] - Backing up the original image - 2023/12/guestportal_in_mobile_view-updraft-pre-smush-original.png 
+[2023-12-04 14:29:21 : INFO] - Successfully optimized the image - /home/customer/www/chargeautomation.com/public_html/wp-content/uploads/2023/12/guestportal_in_mobile_view.png.The file was compressed from 339.12 KB to 96.04 KB, saving 71.68 percent, using WP-Optimize 
+[2023-12-04 14:29:21 : INFO] - Completed processing task with ID : 1449, and type 'smush' 
+[2023-12-04 14:29:21 : INFO] - Processing task with ID : 1450, and type 'smush' 
+[2023-12-04 14:29:21 : INFO] - Re_Smush_It_Task with attachment ID : 10931, autocreated on : December 04, 2023 02:21:01 
+[2023-12-04 14:29:21 : INFO] - File: upsell_suggestions.png, Compression quality: 92 
+[2023-12-04 14:29:23 : INFO] - Backing up the original image - 2023/12/upsell_suggestions-updraft-pre-smush-original.png 
+[2023-12-04 14:29:29 : INFO] - Successfully optimized the image - /home/customer/www/chargeautomation.com/public_html/wp-content/uploads/2023/12/upsell_suggestions.png.The file was compressed from 130.38 KB to 36.39 KB, saving 72.09 percent, using WP-Optimize 
+[2023-12-04 14:29:29 : INFO] - Completed processing task with ID : 1450, and type 'smush' 
+[2023-12-04 14:29:29 : INFO] - Processing task with ID : 1451, and type 'smush' 
+[2023-12-04 14:29:29 : INFO] - Re_Smush_It_Task with attachment ID : 10932, autocreated on : December 04, 2023 02:24:03 
+[2023-12-04 14:29:29 : INFO] - File: upsell-step-6.png, Compression quality: 92 
+[2023-12-04 14:29:32 : INFO] - Backing up the original image - 2023/12/upsell-step-6-updraft-pre-smush-original.png 
+[2023-12-04 14:29:40 : INFO] - Successfully optimized the image - /home/customer/www/chargeautomation.com/public_html/wp-content/uploads/2023/12/upsell-step-6.png.The file was compressed from 411.11 KB to 71.81 KB, saving 82.53 percent, using WP-Optimize 
+[2023-12-04 14:29:40 : INFO] - Completed processing task with ID : 1451, and type 'smush' 
+[2023-12-04 14:29:40 : INFO] - Lock option (updraft_lock_smush, wpwf_options) released 
+[2023-12-04 14:29:40 : INFO] - Successfully processed the queue (smush). 3 tasks were processed out of 3. 
+[2023-12-04 14:29:40 : INFO] - Lock option (updraft_lock_smush, wpwf_options) was deleted from the database 
+[2023-12-04 14:29:40 : INFO] - Cleaning up tasks of type (smush). A total of 3 tasks will be deleted. 
+[2023-12-04 16:27:56 : INFO] - Re_Smush_It_Task with attachment ID : 10942, autocreated on : December 04, 2023 04:27:56 
+[2023-12-04 16:33:00 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2023-12-04 16:33:00 : DEBUG] - Lock option (updraft_lock_smush, wpwf_options) was created in the database 
+[2023-12-04 16:33:00 : INFO] - Lock (updraft_lock_smush, wpwf_options) acquired after initialising the database 
+[2023-12-04 16:33:00 : INFO] - Processing task with ID : 1452, and type 'smush' 
+[2023-12-04 16:33:00 : INFO] - Re_Smush_It_Task with attachment ID : 10942, autocreated on : December 04, 2023 04:27:56 
+[2023-12-04 16:33:00 : INFO] - File: payment-summery2a.png, Compression quality: 92 
+[2023-12-04 16:33:03 : INFO] - Backing up the original image - 2023/12/payment-summery2a-updraft-pre-smush-original.png 
+[2023-12-04 16:33:10 : INFO] - Successfully optimized the image - /home/customer/www/chargeautomation.com/public_html/wp-content/uploads/2023/12/payment-summery2a.png.The file was compressed from 193.96 KB to 54.77 KB, saving 71.76 percent, using WP-Optimize 
+[2023-12-04 16:33:10 : INFO] - Completed processing task with ID : 1452, and type 'smush' 
+[2023-12-04 16:33:10 : INFO] - Lock option (updraft_lock_smush, wpwf_options) released 
+[2023-12-04 16:33:10 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2023-12-04 16:33:10 : INFO] - Lock option (updraft_lock_smush, wpwf_options) was deleted from the database 
+[2023-12-04 16:33:10 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2023-12-05 12:03:01 : INFO] - Re_Smush_It_Task with attachment ID : 10946, autocreated on : December 05, 2023 12:03:01 
+[2023-12-05 12:08:07 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2023-12-05 12:08:07 : DEBUG] - Lock option (updraft_lock_smush, wpwf_options) was created in the database 
+[2023-12-05 12:08:07 : INFO] - Lock (updraft_lock_smush, wpwf_options) acquired after initialising the database 
+[2023-12-05 12:08:07 : INFO] - Processing task with ID : 1453, and type 'smush' 
+[2023-12-05 12:08:07 : INFO] - Re_Smush_It_Task with attachment ID : 10946, autocreated on : December 05, 2023 12:03:01 
+[2023-12-05 12:08:07 : INFO] - File: guidebook2a.png, Compression quality: 92 
+[2023-12-05 12:08:09 : INFO] - Backing up the original image - 2023/12/guidebook2a-updraft-pre-smush-original.png 
+[2023-12-05 12:08:17 : INFO] - Successfully optimized the image - /home/customer/www/chargeautomation.com/public_html/wp-content/uploads/2023/12/guidebook2a.png.The file was compressed from 236.67 KB to 68.16 KB, saving 71.2 percent, using WP-Optimize 
+[2023-12-05 12:08:17 : INFO] - Completed processing task with ID : 1453, and type 'smush' 
+[2023-12-05 12:08:17 : INFO] - Lock option (updraft_lock_smush, wpwf_options) released 
+[2023-12-05 12:08:17 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2023-12-05 12:08:17 : INFO] - Lock option (updraft_lock_smush, wpwf_options) was deleted from the database 
+[2023-12-05 12:08:17 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 

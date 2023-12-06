@@ -3,6 +3,26 @@
     "title": "FAQ Block Fields",
     "fields": [
         {
+            "key": "field_6570d1ffe96c5",
+            "label": "Heading",
+            "name": "heading",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
             "key": "field_6570c9c73795d",
             "label": "FAQs",
             "name": "faqs",
@@ -117,5 +137,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1701891259
+    "modified": 1701892658
 }

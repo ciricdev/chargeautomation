@@ -12,17 +12,8 @@ Text Domain:   page-builder-framework-child
 
 /* Your custom code goes here! */
 
-// Accordion
-.ca-accordion {
-    &__trigger {
-        cursor: pointer;
-    }
+// Blocks
+@import './blocks/all.scss';
 
-    &__content {
-        display: none;
-
-        &.active {
-            display: block;
-        }
-    }
-}
+// Components
+@import './components/all.scss';

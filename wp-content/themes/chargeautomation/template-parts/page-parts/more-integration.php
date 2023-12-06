@@ -5,7 +5,8 @@ $partner_integrations = new WP_Query([
     "post_type"         => 'partner-integration',
     'posts_per_page'    => -1,
     'orderby'           => 'title',
-    'order'             => 'ACS'
+    'order'             => 'ASC',
+    'post__not_in'      => [get_the_ID()]
 ]);
 ?>
 
@@ -14,17 +15,27 @@ $partner_integrations = new WP_Query([
         <div class="more-integration__inner">
             <h2 class="heading-secondary"><?php esc_html_e('More Integrations', 'ca'); ?></h2>
 
-            <?php if($partner_integrations): ?>
+            <?php if($partner_integrations->have_posts()): ?>
 
             <div class="more-integration__items">
 
                 <?php 
-                foreach($partner_integrations as $partner_integration):
+                while ($partner_integrations->have_posts()):
+                    $partner_integrations->the_post();
                     $title = get_the_title(); 
                     $excerpt = get_the_excerpt();
+                    $image = get_the_post_thumbnail(get_the_ID(), 'thumbnail');
                 ?>
 
                     <div class="more-integration__item">
+
+                        <?php if($image): ?>
+
+                        <div class="more-integration__item-image">
+                            <?php echo $image; ?>
+                        </div>
+
+                        <?php endif; ?>
 
                         <?php if($title): ?>
 
@@ -42,7 +53,7 @@ $partner_integrations = new WP_Query([
 
                     </div>
 
-                <?php endforeach; ?>
+                <?php endwhile; wp_reset_query() ?>
             
             </div>
 

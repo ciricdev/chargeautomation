@@ -1,0 +1,67 @@
+.ca-more-integration {
+    padding: 60px 0;
+    background-color: $blue-dark;
+
+    &__heading {
+        color: $white;
+        padding-bottom: 40px;
+    }
+
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: $white;
+        padding: 25px;
+        border-radius: 15px;
+
+        @include min-mq($sm) {
+            flex-basis: calc(50% - 20px);
+        }
+
+        @include min-mq($md) {
+            flex-basis: calc(33.333% - 20px);
+        }
+
+        &:hover {
+            transition: $transition-350 !important;
+            -webkit-box-shadow: 0px 3px 50px 10px rgba($white, .20);
+            -moz-box-shadow: 0px 3px 50px 10px rgba($white, .20);
+            box-shadow: 0px 3px 50px 10px rgba($white, .20);
+        }
+    }
+
+    &__item-image {
+        padding: 0 25px 25px 0;
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        border-radius: 25px;
+
+        img {
+            width: 75px;
+            height: 75px;
+            object-fit: contain;
+        }
+    }
+
+    &__title {
+        color: $blue-dark;
+    }
+
+    &__link {
+        margin-top: auto;
+        color: $blue;
+        transition: $transition-350;
+
+        &:hover {
+            color: $blue-dark;
+        }
+    }
+}

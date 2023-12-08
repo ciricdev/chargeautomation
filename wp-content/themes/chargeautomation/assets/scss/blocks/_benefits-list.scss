@@ -1,0 +1,82 @@
+.ca-block-benefits-list {
+    padding: 50px 0;
+    background: $blue;
+    background: linear-gradient(90deg, $blue-dark 0%, $blue 100%);
+
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+
+        @include min-mq($sm) {
+            flex-direction: row;
+        }
+    }
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: $white;
+        width: 100%;
+        padding: 25px 25px 0;
+
+        @include min-mq($sm) {
+            width: 50%;
+        }
+    }
+
+    &__heading {
+        color: $white;
+    }
+
+    &__list {
+        width: 100%;
+        list-style-type: none;
+        margin: 0;
+        padding: 25px;
+
+        @include min-mq($sm) {
+            width: 50%;
+        }
+    }
+
+    &__list-item {
+        display: flex;
+        align-items: center;
+        color: $white;
+        padding-bottom: 15px;
+
+        @include min-mq($sm) {
+            padding-left: 80px;
+        }
+
+        svg {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+            transition: $transition-500;
+
+            circle,
+            .path-1,
+            .path-2 {
+                transition: $transition-500;
+            }
+        }
+
+        &:hover {
+            svg {
+                circle {
+                    transform: translate(-4px, -4px);
+                }
+
+                .path-1 {
+                    stroke: $blue;
+                }
+
+                .path-2 {
+                    stroke: $blue-dark;
+                }
+            }
+        }
+    }
+}

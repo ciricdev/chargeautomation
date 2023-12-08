@@ -1,8 +1,8 @@
 <?php
 
 function register_faq() {
-    $singular = 'FAQ'; // Book
-	$plural = 'FAQs';  // Books
+    $singular = 'FAQ';
+	$plural = 'FAQs';
 
     $slug = str_replace( ' ', '-', strtolower( $singular ) );
 

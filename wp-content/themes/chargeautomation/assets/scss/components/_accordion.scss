@@ -1,0 +1,35 @@
+// Accordion
+.ca-accordion {
+    &__trigger {
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+
+        &.active {
+            svg {
+                transform: rotate(-90deg);
+            }
+        }
+    }
+
+    &__icon {
+        margin-left: 16px;
+        transform: rotate(90deg);
+        transition: $transition-500;
+    }
+
+    &__content {
+        display: none;
+
+        &.active {
+            display: block;
+        }
+    }
+
+    // &__active {
+    //     .ca-accordion__icon {
+    //         transform: rotate(180deg);
+    //     }
+    // }
+}

@@ -1,8 +1,8 @@
 <?php
 
 function register_partner_integration() {
-    $singular = 'Partner Integration'; // Book
-	$plural = 'Partner Integrations';  // Books
+    $singular = 'Partner Integration';
+	$plural = 'Partner Integrations';
 
     $slug = str_replace( ' ', '-', strtolower( $singular ) );
 
@@ -30,8 +30,8 @@ function register_partner_integration() {
         'show_in_nav_menus'   => true,
         'has_archive'         => false,
         'rewrite'             => array('slug' => $slug),
-        'menu_icon'           => 'dashicons-admin-users',
-        'supports'            => array( 'title', 'thumbnail', 'editor' ),
+        'menu_icon'           => 'dashicons-controls-repeat',
+        'supports'            => array( 'title', 'thumbnail', 'editor', 'excerpt' ),
         'show_in_rest'        => true
     );
 

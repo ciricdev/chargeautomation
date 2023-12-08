@@ -1,5 +1,7 @@
 // Import JS files
 import './accordion.js';
+import observe from './observer.js';
+observe();
 
 // Old jQuery for courasel
 

@@ -12,8 +12,17 @@ Text Domain:   page-builder-framework-child
 
 /* Your custom code goes here! */
 
+// Global
+@import './global/all.scss';
+
 // Blocks
 @import './blocks/all.scss';
 
 // Components
 @import './components/all.scss';
+
+// Pages
+@import './pages/all.scss';
+
+// Template Parts
+@import './template-parts/all.scss';

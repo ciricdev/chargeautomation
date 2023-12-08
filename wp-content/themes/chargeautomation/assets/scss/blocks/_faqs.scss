@@ -1,0 +1,82 @@
+.ca-block-faqs {
+    position: relative;
+    padding: 60px 0;
+
+    &__question-mark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 220px;
+        height: 400px;
+        opacity: 0;
+        transform: translate(-140px, -140px);
+        transition: $transition-1500;
+
+        @include min-mq($md) {
+            transform: translate(-140px, -120px);
+        }
+
+        &.is-inviewport {
+            opacity: .1;
+            transform: translate(-70px, -140px);
+            transition-delay: 500ms;
+
+            @include min-mq($md) {
+                transform: translate(-70px, -120px);
+            }
+        }
+    }
+
+    .ca-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        @include min-mq($sm) {
+            flex-direction: row;
+        }
+    }
+
+    &__head {
+        position: relative;
+        width: 100%;
+
+        @include min-mq($sm) {
+            width: 30%;
+        }
+    }
+
+    &__main {
+        width: 100%;
+
+        .ca-block-faqs__title:first-child {
+            padding-top: 0;
+        }
+
+        @include min-mq($sm) {
+            width: 70%;
+            margin-left: auto;
+        }
+    }
+
+    &__heading {
+        @include min-mq($sm) {
+            font-size: $text-big;
+        }
+    }
+
+    &__title {
+        display: block;
+        padding: 40px 0 10px;
+    }
+
+    &__question {
+        font-size: $text-base;
+    }
+
+    // Accordions
+    .ca-accordion {
+        border-bottom: 1px solid $blue-light;
+        margin-bottom: 20px;
+    }
+}

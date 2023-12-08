@@ -1,0 +1,73 @@
+.ca-single-pms-partner-integration {
+    &__wrapper {
+        display: flex;
+        align-items: start;
+        gap: 25px;
+
+        @include min-mq($sm) {
+            flex-direction: row;
+        }
+    }
+
+    &__content {
+        width: 100%;
+
+        @include min-mq($sm-small) {
+            width: 50%;
+        }
+    }
+
+    &__header {
+        padding: 50px 0;
+    }
+
+    &__title {
+        margin: 0;
+        padding-bottom: 16px;
+        color: $blue-dark;
+        font-size: $text-4xl;
+
+        @include min-mq($sm) {
+            font-size: $text-6xl;
+        }
+    }
+
+    &__integrated-type {
+        color: $blue;
+        font-size: $text-base;
+    }
+
+    &__integrated-type-name {
+        display: block;
+        color: $silver-black;
+        line-height: 18px;
+    }
+
+    &__thumbnail {
+        margin-left: auto;
+        width: 75px;
+        height: 75px;
+        background-color: $white;
+        border-radius: 25px;
+        overflow: hidden;
+        -webkit-box-shadow: 0px 20px 40px -19px rgba($blue-dark, .5);
+        -moz-box-shadow: 0px 20px 40px -19px rgba($blue-dark, .5);
+        box-shadow: 0px 20px 40px -19px rgba($blue-dark, .5);
+
+        @include min-mq($sm) {
+            width: 150px;
+            height: 150px;
+        }
+
+        &__image {
+            width: 75px;
+            height: 75px;
+            object-fit: contain;
+
+            @include min-mq($sm) {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    }
+}

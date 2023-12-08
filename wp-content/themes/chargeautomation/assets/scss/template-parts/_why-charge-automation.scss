@@ -1,0 +1,13 @@
+.ca-why-charge-automation {
+    padding: 40px 0;
+
+    &__content {
+        ul,ol {
+            padding-left: 40px;
+
+            @include min-mq($sm) {
+                padding-left: 80px;
+            }
+        }
+    }
+}

@@ -7,8 +7,10 @@ require_once __DIR__ . '/inc/cpt/all.php';
 require_once __DIR__ . '/inc/blocks/all.php';
 
 // Include Blocks Custom Groups
-
 require_once __DIR__ . '/inc/blocks/blocks_custom_groups.php';
+
+// Theme Function Settings
+require_once __DIR__ . '/inc/theme_function.php';
 
 //require_once('testimonie-type.php');
 // Child Theme Setup

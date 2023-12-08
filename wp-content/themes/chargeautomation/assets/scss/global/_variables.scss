@@ -1,0 +1,45 @@
+$font-primary: "Cabin", sans-serif;
+$font-secondary: "Montserrat", sans-serif;
+
+// Colors
+$black:         #000;
+$white:         #FFF;
+$silver:        #C3C3C3;
+$silver-dark:   #7A7A7A;
+$silver-black:  #54595F;
+$blue-light:    #EBEEF2;
+$blue:          #15aae0;
+$blue-dark:     #052642;
+
+// Font Sizes
+$text-xs:	14px;
+$text-sm:	16px;
+$text-base:	18px;
+$text-lg:	20px;
+$text-xl:	22px;
+$text-2xl:	24px;
+$text-3xl:  28px;
+$text-4xl:  31px;
+$text-5xl:  34px;
+$text-6xl:  39px;
+$text-big:  100px;
+
+// Breakpoints
+$mac: 1440px;
+$lt: 1366px;
+$ls: 1280px;
+$lg: 1199px;
+$md: 991px;
+$sm: 767px;
+$sm-small: 620px;
+$mb: 480px;
+$ip: 420px;
+$xs: 350px;
+
+// Transition
+$transition-150: 150ms ease;
+$transition-350: 350ms ease;
+$transition-500: 500ms ease;
+$transition-1000: 1000ms ease;
+$transition-1500: 1500ms ease;
+$transition-2000: 2000ms ease;
